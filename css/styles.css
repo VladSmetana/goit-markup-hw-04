@@ -116,10 +116,10 @@ img{
             rgba(46, 47, 66, 0.7)
     ),
     url('../images/people-office.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 188px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .title{
@@ -370,8 +370,11 @@ img{
 .social-list{
     width: 40px;
     height: 40px;
+}
+.social-link{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-media-paragraph{
     color:  #FFF;
     font-size: 16px;
