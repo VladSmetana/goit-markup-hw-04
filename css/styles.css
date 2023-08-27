@@ -270,6 +270,9 @@ img{
     align-items: center;
     justify-content: center;
 }
+.social-svg .social-link:hover, .social-list .social-link:active{
+    background-color: #404bbf;
+}
 .portfolio{
     padding: 120px 0;
 }
