@@ -385,6 +385,6 @@ img{
     line-height: 1.5em; /* 150% */
     letter-spacing: 0.02em;
 }
-.social-list .social-link:hover, .social-list .social-link:active{
+.social-list .social-link:hover, .social-list .social-link:active, .social-list .social-link:focus{
     background-color: #31d0aa;
 }
