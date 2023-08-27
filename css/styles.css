@@ -10,6 +10,9 @@ h1, h2, h3, p, ul, li{
 img{
     display: block;
 }
+.svg{
+    fill:#f4f4fd;
+}
 .container {
     max-width:1158px;
     margin: 0 auto;
@@ -271,7 +274,7 @@ img{
     align-items: center;
     justify-content: center;
 }
-.social-svg .social-link:hover, .social-svg .social-link:active{
+.social-svg .social-link:hover, .social-svg .social-link:active, .social-svg .social-link:focus{
     background-color: #404bbf;
 }
 .portfolio{
