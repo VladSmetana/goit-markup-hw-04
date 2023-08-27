@@ -330,6 +330,12 @@ img{
     background-color: #2e2f42;
     font-size: 18px;
     padding: 100px 0;
+}
+.footer .container{
+    display: flex;
+    align-items: baseline;
+}
+.logo-paragraph-footer{
     margin-right: 120px;
 }
 .footer-text{
@@ -349,16 +355,24 @@ img{
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
-.social-media-container{
+.social-media{
     display: flex;
-    align-items: baseline;
-
+    list-style: none;
+    gap: 16px;
 }
-
-/*.footer .container{*/
-/*    display: flex;*/
-/*    align-items: baseline;*/
-/*}*/
+.social-list{
+    width: 40px;
+    height: 40px;
+}
+.social-media-paragraph{
+    color:  #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
 .social-header{
     color:  #FFF;
     font-size: 16px;
@@ -366,4 +380,7 @@ img{
     font-weight: 500;
     line-height: 1.5em; /* 150% */
     letter-spacing: 0.02em;
+}
+.social-list .social-link:hover, .social-list .social-link:active{
+    background-color: #31d0aa;
 }
